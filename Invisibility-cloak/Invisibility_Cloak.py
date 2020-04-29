@@ -10,7 +10,7 @@ parser.add_argument("--video", help = "Path to input video file. Skip this argum
 args = parser.parse_args()
 
 print("""
-Harry :  Hey !! Would you like to try my invisibility cloak ??
+Josh :  Hey !! Would you like to try my invisibility cloak ??
          Its awesome !!
         
          Prepare to get invisible .....................
@@ -63,7 +63,6 @@ while(cap.isOpened()):
 	final_output = cv2.addWeighted(res1,1,res2,1,0)
 
 	cv2.imshow('Magic !!!',final_output)
-
-	#whaen the 'Q' key pressed exit.
-	if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+	#wait until the 'Q' key pressed then end the program
+	if cv2.waitKey(1) & 0xFF ==ord('q'):
+		break
