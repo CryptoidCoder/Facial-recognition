@@ -2,6 +2,8 @@ This code will find faces within images
 
 Run the code like this:
 
+```pip install requirements.txt```
+
 ```python face_detect.py *yourimage.png*```
 or
 *python face_detect.py abba.png*
