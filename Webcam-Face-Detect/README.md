@@ -12,3 +12,4 @@ To run the OpenCV3 version, run python webcam_cv3.py haarcascade_frontalface_def
 
 or just ```python webcam_cv3.py``` will work fine
 
+**You will need to ```pip install opencv-python``` for this to work**
