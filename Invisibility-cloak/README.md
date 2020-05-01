@@ -1,4 +1,5 @@
 if using this, you need to use the command ```pip install requirements.txt``` to pip install all the things you need.
+then ```python Invisibility_Cloak.py```
 
 this program will take a still image and then put the live stream in front of it so...
 
