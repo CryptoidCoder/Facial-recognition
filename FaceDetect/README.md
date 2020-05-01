@@ -15,3 +15,5 @@ https://realpython.com/blog/python/face-recognition-with-python/
 
 To run the OpenCV3 version, run facedetect_cv3.py.
 
+```live.py``` is a primative way to detect faces through a webcam. but a better version is available in my repository:
+https://github.com/legoman101/Facial-recognition/tree/master/Webcam-Face-Detect/
